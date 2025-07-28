@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess a Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Temperature Conversion:</h1>
+      <input type="number" id="textBox" /><br />
+      <input
+        type="radio"
+        id="toFahrenheit"
+        class="temperature"
+        name="conversion"
+        onclick="one()"
+      />
+      <label for="toFahrenheit" class="temperature">Celsius ➡️ Fahrenheit</label
+      ><br />
+      <input
+        type="radio"
+        id="toCelsius"
+        class="temperature"
+        name="conversion"
+        onclick="two()"
+      />
+      <label for="toCelsius" class="temperature">Fahrenheit ➡️ Celsius</label
+      ><br />
+      <button id="submitBtn">Submit</button>
+      <h2 id="myH2">Select a conversion then put a number</h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

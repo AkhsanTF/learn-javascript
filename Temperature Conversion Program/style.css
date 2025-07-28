@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(233, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  max-width: 350px;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.507);
+}
+
+#textBox {
+  margin-bottom: 20px;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.temperature:hover {
+  cursor: pointer;
+}
+
+label {
+  font-weight: 600;
+}
+
+h1 {
+  color: rgb(95, 179, 235);
+}

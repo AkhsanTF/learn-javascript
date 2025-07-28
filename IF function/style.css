@@ -1,0 +1,22 @@
+body {
+  justify-items: center;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}

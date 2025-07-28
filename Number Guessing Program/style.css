@@ -1,0 +1,12 @@
+body {
+  display: grid;
+}
+
+button {
+  margin-top: 100px;
+  width: 200px;
+  height: 50px;
+  font-size: 2em;
+  justify-self: center;
+  cursor: pointer;
+}
